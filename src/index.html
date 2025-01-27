@@ -4,11 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwugYjkStrKCv4hgND62XXlNMsVG4uXEmj9A&s" type="image/x-icon">
+    <title>Zumato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-900">
-    <h1 class="text-3xl font-bold underline text-white">
-        Hello world!
-      </h1>
+<body class="bg-slate-900 ">
+    <div class="HeaderDiv w-full h-[420px] flex flex-col ">
+        <div class="flex justify-around text-white mt-[30px] text-[18px]" >
+            <div>
+                <a href="https://www.zomato.com/mobile">Get the App</a>
+            </div>
+            <div class="flex justify-between gap-10">
+                <a href="#">Investor Relations</a>
+                <a href="#">Add Restaurant</a>
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+
+        </div>
+        <br><br>
+        <div class="flex justify-center">
+            <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="" class=" w-[300px]" >
+        </div>
+        <br>
+        <div class="flex flex-col ">
+            <div>
+                <h1 class="text-[43px] text-white text-center">Discover the best food & drinks in Kolkata </h1>
+            </div>
+            <br>
+            
+        </div>
+        <div class="flex justify-center items-center">
+            <div class="w-[800px] h-[55px] bg-white rounded-[10px] flex items-center pl-1.5  gap-[10px] ">
+                <div class="flex text-gray-650">
+                    <i class="fa-solid fa-location-dot text-red-400 text-[25px] pl-[15px]"></i>
+                    <br>
+                    <select id="City" class="w-[200px] border-r-2 border-gray-300 text-gray-700">
+                        <option value="Kolkata" class="text-gray-700">Kolkata</option>
+                        <option value="Bareily" class="text-gray-700">Bareilly</option>
+                        <option value="Kolkata" class="text-gray-700">Kolkata</option>
+                        <option value="Bareily" class="text-gray-700">Bareilly</option>
+                        <option value="Kolkata" class="text-gray-700">Kolkata</option>
+                        <option value="Bareily" class="text-gray-700">Bareilly</option>
+                    </select>
+
+                </div>
+                
+                <div class="flex gap-1.5 items-center">
+                    <i class="fa-solid fa-magnifying-glass text-gray-500 text-[20px]"></i>
+                    <input type="text" placeholder="Search for Restaurant or Dish  " class="w-[500px] Search text-gray-700">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+      
 </body>
 </html>
